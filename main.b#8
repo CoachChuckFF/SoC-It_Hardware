@@ -4028,7 +4028,7 @@ design rules under a new name.</description>
 <via x="13.9" y="90.1" extent="1-16" drill="0.3"/>
 <via x="12.9" y="88.6" extent="1-16" drill="0.3"/>
 <via x="9" y="92" extent="1-16" drill="0.3"/>
-<via x="13.5" y="84.5" extent="1-16" drill="0.3"/>
+<via x="13.75" y="83.5" extent="1-16" drill="0.3"/>
 <via x="7.5" y="92" extent="1-16" drill="0.3"/>
 <via x="7.5" y="85.5" extent="1-16" drill="0.3"/>
 <via x="18.5" y="77" extent="1-16" drill="0.3"/>
@@ -4100,7 +4100,6 @@ design rules under a new name.</description>
 <via x="8.5" y="52.5" extent="1-16" drill="0.3"/>
 <via x="8.5" y="51.5" extent="1-16" drill="0.3"/>
 <via x="8.5" y="53.5" extent="1-16" drill="0.3"/>
-<via x="8.5" y="46.5" extent="1-16" drill="0.3"/>
 <via x="15.5" y="53.5" extent="1-16" drill="0.3"/>
 <via x="14.5" y="53.5" extent="1-16" drill="0.3"/>
 <via x="13.5" y="53.5" extent="1-16" drill="0.3"/>
@@ -4117,12 +4116,6 @@ design rules under a new name.</description>
 <via x="17.5" y="50.5" extent="1-16" drill="0.3"/>
 <via x="17.5" y="52.5" extent="1-16" drill="0.3"/>
 <via x="17.5" y="53.5" extent="1-16" drill="0.3"/>
-<via x="13.5" y="48.5" extent="1-16" drill="0.3"/>
-<via x="14.5" y="48.5" extent="1-16" drill="0.3"/>
-<via x="15.5" y="48.5" extent="1-16" drill="0.3"/>
-<via x="16.5" y="48.5" extent="1-16" drill="0.3"/>
-<via x="17.5" y="48.5" extent="1-16" drill="0.3"/>
-<via x="18.5" y="48.5" extent="1-16" drill="0.3"/>
 <via x="13.5" y="41.5" extent="1-16" drill="0.3"/>
 <via x="13.5" y="40.5" extent="1-16" drill="0.3"/>
 <via x="13.5" y="39.5" extent="1-16" drill="0.3"/>

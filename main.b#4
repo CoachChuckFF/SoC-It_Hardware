@@ -4016,12 +4016,12 @@ design rules under a new name.</description>
 <via x="15.85" y="14.3" extent="1-16" drill="0.3"/>
 <via x="5" y="18" extent="1-16" drill="0.3"/>
 <via x="1.5" y="18.9" extent="1-16" drill="0.3"/>
-<via x="4.5" y="24" extent="1-16" drill="0.3"/>
-<via x="5.5" y="24" extent="1-16" drill="0.3"/>
-<via x="6.5" y="24" extent="1-16" drill="0.3"/>
-<via x="7.5" y="24" extent="1-16" drill="0.3"/>
-<via x="8.5" y="24" extent="1-16" drill="0.3"/>
-<via x="9.5" y="24" extent="1-16" drill="0.3"/>
+<via x="4.5" y="23.5" extent="1-16" drill="0.3"/>
+<via x="5.5" y="23.5" extent="1-16" drill="0.3"/>
+<via x="6.5" y="23.5" extent="1-16" drill="0.3"/>
+<via x="7.5" y="23.5" extent="1-16" drill="0.3"/>
+<via x="8.5" y="23.5" extent="1-16" drill="0.3"/>
+<via x="9.5" y="23.5" extent="1-16" drill="0.3"/>
 <wire x1="15" y1="18.5" x2="14.03" y2="18.5" width="0.2" layer="1"/>
 <wire x1="14.03" y1="18.5" x2="13.99" y2="18.54" width="0.2" layer="1"/>
 <via x="13.9" y="90.1" extent="1-16" drill="0.3"/>
@@ -4243,21 +4243,6 @@ design rules under a new name.</description>
 <via x="16" y="5" extent="1-16" drill="0.3"/>
 <via x="15.85" y="13.8" extent="1-16" drill="0.3"/>
 <via x="19.43" y="11.98" extent="1-16" drill="0.3"/>
-<via x="5" y="24.5" extent="1-16" drill="0.3"/>
-<via x="6" y="24.5" extent="1-16" drill="0.3"/>
-<via x="7" y="24.5" extent="1-16" drill="0.3"/>
-<via x="8" y="24.5" extent="1-16" drill="0.3"/>
-<via x="9" y="24.5" extent="1-16" drill="0.3"/>
-<via x="5.5" y="25" extent="1-16" drill="0.3"/>
-<via x="6.5" y="25" extent="1-16" drill="0.3"/>
-<via x="7.5" y="25" extent="1-16" drill="0.3"/>
-<via x="8.5" y="25" extent="1-16" drill="0.3"/>
-<via x="8" y="25.5" extent="1-16" drill="0.3"/>
-<via x="7" y="25.5" extent="1-16" drill="0.3"/>
-<via x="6" y="25.5" extent="1-16" drill="0.3"/>
-<via x="6.5" y="26" extent="1-16" drill="0.3"/>
-<via x="7.5" y="26" extent="1-16" drill="0.3"/>
-<via x="7" y="26.5" extent="1-16" drill="0.3"/>
 <via x="10" y="26.5" extent="1-16" drill="0.3"/>
 <via x="10" y="27" extent="1-16" drill="0.3"/>
 <via x="10" y="27.5" extent="1-16" drill="0.3"/>
@@ -4732,6 +4717,14 @@ design rules under a new name.</description>
 <signal name="N$40">
 <contactref element="U4" pad="33"/>
 </signal>
+<signal name="GND1">
+<via x="14" y="53.5" extent="1-16" drill="0.3"/>
+<via x="15" y="53.5" extent="1-16" drill="0.3"/>
+<via x="16" y="53.5" extent="1-16" drill="0.3"/>
+<via x="17" y="53.5" extent="1-16" drill="0.3"/>
+<via x="18" y="53.5" extent="1-16" drill="0.3"/>
+<via x="19" y="53.5" extent="1-16" drill="0.3"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -4749,11 +4742,9 @@ design rules under a new name.</description>
 <approved hash="4,1,708fc30b97df011a"/>
 <approved hash="4,1,f781cd3852680d90"/>
 <approved hash="4,1,0cb5b04b4c00a16e"/>
-<approved hash="4,1,35c59cfb7117bb07"/>
 <approved hash="4,16,708fc30b97df011a"/>
 <approved hash="4,16,f781cd3852680d90"/>
 <approved hash="4,16,0cb5b04b4c00a16e"/>
-<approved hash="4,16,35c59cfb7117bb07"/>
 <approved hash="19,1,0e6201c27bdc747c"/>
 <approved hash="19,1,19ae1a4e445047b0"/>
 <approved hash="19,1,d9aeda53a44da7b0"/>
@@ -4799,7 +4790,6 @@ design rules under a new name.</description>
 <approved hash="19,1,1e0e1dea43f44010"/>
 <approved hash="19,1,ee6de1ce5fd05073"/>
 <approved hash="19,1,4e6e41d253cc5c70"/>
-<approved hash="19,16,1fde1e7e406041c0"/>
 <approved hash="3,1,0e13b084b0850e12"/>
 <approved hash="21,19,ff3dff3fff3fff3d"/>
 <approved hash="4,1,241da6d02c76b2b9"/>
@@ -4817,9 +4807,6 @@ design rules under a new name.</description>
 <approved hash="21,19,4aef4b0f490d690d"/>
 <approved hash="5,1,3f52637cf89d4515"/>
 <approved hash="5,1,333d68e24cf43689"/>
-<approved hash="19,16,82e98276b868b8f7"/>
-<approved hash="19,16,12ee12724c6c4cf0"/>
-<approved hash="19,16,8fd98e7ab464b5c7"/>
 <approved hash="21,19,75b3b5b3b7b1b771"/>
 <approved hash="23,1,067f87beb502b94e"/>
 <approved hash="4,1,fd8fa231eb3820c4"/>
@@ -4855,9 +4842,7 @@ design rules under a new name.</description>
 <approved hash="4,1,5189c98655e2552c"/>
 <approved hash="21,19,bb78b97ab97abb78"/>
 <approved hash="21,19,588858685a6a5a6a"/>
-<approved hash="21,19,686c946e9490966d"/>
 <approved hash="20,1,11dcf9844bbe7898"/>
-<approved hash="19,16,eecfec2e523050d1"/>
 <approved hash="19,1,aef2ac12f0f4f214"/>
 <approved hash="19,1,9dbfa015c1f3fc59"/>
 <approved hash="19,1,f99af81ef5f8f47c"/>
@@ -4879,6 +4864,11 @@ design rules under a new name.</description>
 <approved hash="19,1,9dff9e2bffcdfc19"/>
 <approved hash="19,1,9c1fa06bc18dfdf9"/>
 <approved hash="19,1,9f9f981febf9ec79"/>
+<approved hash="21,19,eea512a7125910a4"/>
+<approved hash="19,16,5aee5a7ecc60ccf0"/>
+<approved hash="19,16,daeeda704c6e4cf0"/>
+<approved hash="19,16,57de5672c06cc1c0"/>
+<approved hash="19,16,ee2fefa251bc5031"/>
 </errors>
 </board>
 </drawing>

@@ -3957,7 +3957,7 @@ design rules under a new name.</description>
 <via x="2.245" y="47.725" extent="1-16" drill="0.3"/>
 <via x="4.38" y="28.615" extent="1-16" drill="0.3"/>
 <via x="17.9" y="31.15" extent="1-16" drill="0.3"/>
-<via x="17.9" y="40.1" extent="1-16" drill="0.3"/>
+<via x="17.965" y="40.12" extent="1-16" drill="0.3"/>
 <via x="17.5" y="46.5" extent="1-16" drill="0.3"/>
 <via x="4.1" y="38.25" extent="1-16" drill="0.3"/>
 <via x="5.85" y="39.55" extent="1-16" drill="0.3"/>
@@ -3995,10 +3995,10 @@ design rules under a new name.</description>
 <via x="2.5" y="15.5" extent="1-16" drill="0.3"/>
 <via x="1.5" y="15.5" extent="1-16" drill="0.3"/>
 <via x="4.4" y="43.25" extent="1-16" drill="0.3"/>
-<via x="17.5" y="43.45" extent="1-16" drill="0.3"/>
+<via x="17.955" y="43.975" extent="1-16" drill="0.3"/>
 <via x="9.2" y="16.8" extent="1-16" drill="0.3"/>
 <via x="4.07" y="42" extent="1-16" drill="0.3"/>
-<via x="17.5" y="41.45" extent="1-16" drill="0.3"/>
+<via x="18" y="41.95" extent="1-16" drill="0.3"/>
 <via x="8" y="5.09" extent="1-16" drill="0.3"/>
 <via x="1.5" y="8.5" extent="1-16" drill="0.3"/>
 <via x="1.5" y="7.5" extent="1-16" drill="0.3"/>

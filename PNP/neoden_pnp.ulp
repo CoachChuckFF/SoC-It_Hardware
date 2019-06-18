@@ -7,6 +7,14 @@
 
 // THIS PROGRAM IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, MAY RESULT IN DEATH
 
+real detectX = 350.0;
+real detectXOffset = 5.75;
+real xOffset = detectX + detectXOffset;
+
+real detectY = 350.0;
+real detectYOffset = 0.66;
+real yOffset = detectY + detectYOffset;
+
 if (board) board(B) {
 
     // Get filename
@@ -49,8 +57,8 @@ if (board) board(B) {
                 printf("%s,", E.name);
                 printf("%s,", E.value);
                 printf("%s,", E.package.name);
-                printf("%4.2f,", u2mm((xmin + xmax)/2));
-                printf("%4.2f,", u2mm((ymin + ymax)/2));
+                printf("%4.2f,", xOffset - u2mm((xmin + xmax)/2));
+                printf("%4.2f,", yOffset - u2mm((ymin + ymax)/2));
                 printf("%3.2f,", angle); //Angle - double check this
                 printf("No,"); //Skip
                 printf("\n");
