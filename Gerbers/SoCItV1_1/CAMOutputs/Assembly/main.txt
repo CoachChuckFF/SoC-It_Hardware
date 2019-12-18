@@ -1,0 +1,26 @@
+Partlist exported from /Users/christian/Documents/Blizzard/SoC-It_Hardware/main.sch at 12/18/19 10:57 AM
+
+Qty Value                        Device                       Package                  Parts                                   Description                                               PN                 VERSION
+9   0.1uF                        0603_CAP_DEV3D               CAPC1508X55              C1, C4, C8, C9, C10, C11, C12, C14, C15 0603 Capacitor                                                                      
+1   0603_DIODE_DEV               0603_DIODE_DEV               0603_DIODE               D1                                      0603 Diode                                                                          
+2   100K                         0603_RES_DEV3D               RESC1608X55              R2, R20                                 0603 Resister                                                                       
+2   100k                         0603_RES_DEV3D               RESC1608X55              R11, R12                                0603 Resister                                                                       
+7   10uF                         0603_CAP_DEV3D               CAPC1508X55              C2, C3, C5, C6, C7, C13, C16            0603 Capacitor                                                                      
+2   150K                         0603_RES_DEV3D               RESC1608X55              R3, R21                                 0603 Resister                                                                       
+1   18650_BATTERY_DEV            18650_BATTERY_DEV            18650_BATTERY_PKG        B1                                      36-1043-ND                                                36-1043-ND                
+4   2K                           0603_RES_DEV3D               RESC1608X55              R4, R6, R9, R19                         0603 Resister                                                                       
+3   2N2222                       SOT23_TRANS3D                SOT95P242X120-3          Q1, Q2, Q3                              2N222 PNP Transitor                                       MMBT2222A-FDICT-ND        
+1   330                          0603_RES_DEV3D               RESC1608X55              R18                                     0603 Resister                                                                       
+1   5050_DEV                     5050_DEV                     5050_PKG                 D2                                      5050 RGB LED                                              1528-1104-ND              
+2   64K                          0603_RES_DEV3D               RESC1608X55              R1, R5                                  0603 Resister                                                                       
+6   9K                           0603_RES_DEV3D               RESC1608X55              R7, R13, R14, R15, R16, R17             0603 Resister                                                                       
+1   AP9214L_DEV                  AP9214L_DEV                  U-DFN2535-6_PKG          U6                                      SINGLE CHIP SOLUTION FOR 1-CELL Li+ BATTERY PACK Option 1 AP9214L            A      
+1   BQ24072TRGTR_DEVBQ24072TRGTR BQ24072TRGTR_DEVBQ24072TRGTR QFN50P300X300X100-17T168 U2                                      IC LI-ION CHARGE MGMT 16QFN                               BQ24072TRGTR              
+1   ESP_32_WROVER_I_PKG          ESP_32_WROVER_I_PKG          ESP32_WROVER_I_PKG       U4                                      ESP32-WROVER-I                                            GC-ESP-WROVER-32          
+1   LD1117S33CTR_DEVLD1117S33CTR LD1117S33CTR_DEVLD1117S33CTR SOT230P700X180-4         U3                                      LD1117S33CTR                                                                        
+1   MAX_485_DEV3D                MAX_485_DEV3D                SOIC127P600X175-8        U1                                      MAX 485                                                   MAX485EESA+TCT-ND         
+1   N_MOSFET_DEVSOT23-6L_PKG     N_MOSFET_DEVSOT23-6L_PKG     SOT95P280X125-6          Q4                                      N Mosfet SOT23-6L                                         ZXMN2A01E6CT-ND           
+1   USB_ALI_DEV                  USB_ALI_DEV                  CHEAP_USB                X2                                      ALI USB Micro B                                                                     
+1   USB_ESD_DEVSOT143            USB_ESD_DEVSOT143            SOT192P237X122-4         D3                                      SP0503BAHT USB ESD Protection                             SP0503BAHT                
+1   USB_TO_UART_DEV              USB_TO_UART_DEV              QFN50P500X500X100-28     U5                                      SINGLE-CHIP USB-TO-UART BRIDGE                            CP2102                    
+1   XLR_FEMALE_PLUG_DEV          XLR_FEMALE_PLUG_DEV          XLR_FEMALE_PLUG_PKG      X1                                      XLR Female Plug to PCB                                                              
