@@ -1,11 +1,11 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-02-15T20:53:17Z",
+        "CreationDate": "2020-02-05T15:41:05Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
-            "Version": "9.3.0"
+            "Version": "9.5.2"
         },
         "Part": "Single"
     },
@@ -17,8 +17,8 @@
         },
         "Owner": "Christian Krueger <christian@blizzardlighting.com>",
         "Size": {
-            "X": 22,
-            "Y": 109
+            "X": 21.5,
+            "Y": 112
         }
     }
 }

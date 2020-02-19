@@ -117,13 +117,14 @@
 <text x="0" y="1.4136" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.4136" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="XLR_FEMALE_PLUG_PKG" urn="urn:adsk.eagle:footprint:2725171/8" library_version="47" library_locally_modified="yes">
+<package name="XLR_FEMALE_PLUG_PKG" urn="urn:adsk.eagle:footprint:2725171/11" library_version="51">
 <description>XLR Female Plug</description>
 <smd name="2" x="-3.61" y="0" dx="5" dy="2.7" layer="1" roundness="69" rot="R90"/>
 <smd name="VCC" x="0" y="0" dx="2.7" dy="5" layer="1" roundness="69" rot="R180"/>
 <smd name="1" x="3.61" y="0" dx="2.7" dy="5" layer="1" roundness="69" rot="R180"/>
-<smd name="SW" x="0" y="12.5" dx="3.5" dy="8" layer="16"/>
+<smd name="SW" x="0" y="12.5" dx="3.5" dy="8" layer="16" stop="no" cream="no"/>
 <pad name="3" x="0" y="-5" drill="1" rot="R180"/>
+<rectangle x1="-1.75" y1="8.5" x2="1.75" y2="16.5" layer="30"/>
 </package>
 <package name="CAPC1508X55" urn="urn:adsk.eagle:footprint:2669410/4" library_version="47" library_locally_modified="yes">
 <description>CHIP, 1.55 X 0.85 X 0.55 mm body
@@ -833,7 +834,7 @@
 <packageinstance name="RESC1608X55"/>
 </packageinstances>
 </package3d>
-<package3d name="XLR_FEMALE_PLUG_PKG" urn="urn:adsk.eagle:package:2725172/9" type="model" library_version="47" library_locally_modified="yes">
+<package3d name="XLR_FEMALE_PLUG_PKG" urn="urn:adsk.eagle:package:2725172/12" type="model" library_version="51">
 <description>XLR Female Plug</description>
 <packageinstances>
 <packageinstance name="XLR_FEMALE_PLUG_PKG"/>
@@ -1407,7 +1408,7 @@ PN: MAX485CSA+-ND</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="XLR_FEMALE_PLUG_DEV" urn="urn:adsk.eagle:component:2725173/9" prefix="X" library_version="47" library_locally_modified="yes">
+<deviceset name="XLR_FEMALE_PLUG_DEV" urn="urn:adsk.eagle:component:2725173/12" prefix="X" library_version="51">
 <description>XLR Female Plug to PCB</description>
 <gates>
 <gate name="G$1" symbol="XLR_FEMALE_PLUG_SYM" x="2.54" y="-10.16"/>
@@ -1422,7 +1423,7 @@ PN: MAX485CSA+-ND</description>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2725172/9"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2725172/12"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1866,7 +1867,7 @@ PN: 336-1160-5-ND</description>
 </classes>
 <parts>
 <part name="U1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="MAX_485_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2665057/5"/>
-<part name="X1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="XLR_FEMALE_PLUG_DEV" device="" package3d_urn="urn:adsk.eagle:package:2725172/9"/>
+<part name="X1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="XLR_FEMALE_PLUG_DEV" device="" package3d_urn="urn:adsk.eagle:package:2725172/12"/>
 <part name="Q1" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="SOT23_TRANS" device="3D" package3d_urn="urn:adsk.eagle:package:2669417/4" value="2N2222"/>
 <part name="Q2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="SOT23_TRANS" device="3D" package3d_urn="urn:adsk.eagle:package:2669417/4" value="2N2222"/>
 <part name="R14" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_RES_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2685918/4" value="9K"/>
@@ -2031,12 +2032,12 @@ PN: 336-1160-5-ND</description>
 <wire x1="93.98" y1="-302.26" x2="226.06" y2="-302.26" width="0.1524" layer="97"/>
 <wire x1="226.06" y1="-302.26" x2="261.62" y2="-302.26" width="0.1524" layer="97"/>
 <wire x1="93.98" y1="-314.96" x2="223.52" y2="-314.96" width="0.1524" layer="97"/>
-<text x="96.52" y="-297.18" size="5.08" layer="97">Title: Blizzard Board IPO</text>
+<text x="96.52" y="-297.18" size="5.08" layer="97">Title: SoC-It</text>
 <text x="96.52" y="-309.88" size="5.08" layer="97">Designed By: Christian Krueger</text>
 <text x="96.52" y="-287.02" size="5.08" layer="97">Blizzard Lighting LLC</text>
-<text x="96.52" y="-322.58" size="5.08" layer="97">Date: 3.8.19</text>
+<text x="96.52" y="-322.58" size="5.08" layer="97">Date: 2.19.20</text>
 <text x="228.6" y="-322.58" size="5.08" layer="97">Sheet: 1/1</text>
-<text x="231.14" y="-309.88" size="5.08" layer="97">VER: 1.1</text>
+<text x="231.14" y="-309.88" size="5.08" layer="97">VER: 1.4</text>
 <wire x1="223.52" y1="-314.96" x2="226.06" y2="-314.96" width="0.1524" layer="97"/>
 <wire x1="226.06" y1="-314.96" x2="261.62" y2="-314.96" width="0.1524" layer="97"/>
 <wire x1="223.52" y1="-325.12" x2="223.52" y2="-314.96" width="0.1524" layer="97"/>
@@ -12836,9 +12837,16 @@ PN: 336-1160-5-ND</description>
 <approved hash="206,1,50.8,-154.94,VBAT,,,,,"/>
 <approved hash="206,1,71.12,-114.3,VBAT,,,,,"/>
 <approved hash="206,1,147.32,-111.76,VBAT,,,,,"/>
-<approved hash="115,1,144.78,-21.59,3.3V,,,,,"/>
-<approved hash="115,1,132.08,-223.52,3.3V,,,,,"/>
-<approved hash="115,1,134.62,-179.07,3.3V,,,,,"/>
+<approved hash="115,1,116.84,-128.27,4.2V,,,,,"/>
+<approved hash="115,1,91.44,-135.89,4.2V,,,,,"/>
+<approved hash="115,1,124.46,-179.07,4.2V,,,,,"/>
+<approved hash="115,1,25.4,-299.72,4.2V,,,,,"/>
+<approved hash="115,1,76.2,-31.75,4.2V,,,,,"/>
+<approved hash="115,1,45.72,-110.49,5V,,,,,"/>
+<approved hash="115,1,99.06,-100.33,5V,,,,,"/>
+<approved hash="115,1,228.6,-154.94,5V,,,,,"/>
+<approved hash="115,1,205.74,-90.17,5V,,,,,"/>
+<approved hash="115,1,127,-24.13,5V,,,,,"/>
 <approved hash="115,1,172.72,-256.54,GND,,,,,"/>
 <approved hash="115,1,129.54,-125.73,GND,,,,,"/>
 <approved hash="115,1,147.32,-130.81,GND,,,,,"/>
@@ -12862,16 +12870,9 @@ PN: 336-1160-5-ND</description>
 <approved hash="115,1,147.32,-113.03,VBAT,,,,,"/>
 <approved hash="115,1,77.47,-119.38,VBAT,,,,,"/>
 <approved hash="115,1,50.8,-162.56,VBAT,,,,,"/>
-<approved hash="115,1,116.84,-128.27,4.2V,,,,,"/>
-<approved hash="115,1,91.44,-135.89,4.2V,,,,,"/>
-<approved hash="115,1,124.46,-179.07,4.2V,,,,,"/>
-<approved hash="115,1,25.4,-299.72,4.2V,,,,,"/>
-<approved hash="115,1,76.2,-31.75,4.2V,,,,,"/>
-<approved hash="115,1,45.72,-110.49,5V,,,,,"/>
-<approved hash="115,1,99.06,-100.33,5V,,,,,"/>
-<approved hash="115,1,228.6,-154.94,5V,,,,,"/>
-<approved hash="115,1,205.74,-90.17,5V,,,,,"/>
-<approved hash="115,1,127,-24.13,5V,,,,,"/>
+<approved hash="115,1,144.78,-21.59,3.3V,,,,,"/>
+<approved hash="115,1,132.08,-223.52,3.3V,,,,,"/>
+<approved hash="115,1,134.62,-179.07,3.3V,,,,,"/>
 </errors>
 </schematic>
 </drawing>
