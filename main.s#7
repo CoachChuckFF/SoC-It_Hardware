@@ -168,58 +168,126 @@
 <text x="0" y="2.3749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2849" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="ESP32_WROVER_I_PKG" urn="urn:adsk.eagle:footprint:4432904/6" library_version="43">
+<package name="ESP32_WROVER_I_PKG" urn="urn:adsk.eagle:footprint:4432904/6" locally_modified="yes" library_version="46" library_locally_modified="yes">
 <description>ESP32-WROVER-I</description>
-<smd name="1" x="-8.5" y="11.43" dx="2" dy="0.9" layer="1"/>
-<smd name="2" x="-8.5" y="10.16" dx="2" dy="0.9" layer="1"/>
-<smd name="3" x="-8.5" y="8.89" dx="2" dy="0.9" layer="1"/>
-<smd name="4" x="-8.5" y="7.62" dx="2" dy="0.9" layer="1"/>
-<smd name="5" x="-8.5" y="6.35" dx="2" dy="0.9" layer="1"/>
-<smd name="6" x="-8.5" y="5.08" dx="2" dy="0.9" layer="1"/>
-<smd name="7" x="-8.5" y="3.81" dx="2" dy="0.9" layer="1"/>
-<smd name="8" x="-8.5" y="2.54" dx="2" dy="0.9" layer="1"/>
-<smd name="9" x="-8.5" y="1.27" dx="2" dy="0.9" layer="1"/>
-<smd name="10" x="-8.5" y="0" dx="2" dy="0.9" layer="1"/>
-<smd name="11" x="-8.5" y="-1.27" dx="2" dy="0.9" layer="1"/>
-<smd name="12" x="-8.5" y="-2.54" dx="2" dy="0.9" layer="1"/>
-<smd name="13" x="-8.5" y="-3.81" dx="2" dy="0.9" layer="1"/>
-<smd name="14" x="-8.5" y="-5.08" dx="2" dy="0.9" layer="1"/>
-<smd name="15" x="-8.5" y="-6.35" dx="2" dy="0.9" layer="1"/>
-<smd name="16" x="-8.5" y="-7.62" dx="2" dy="0.9" layer="1"/>
-<smd name="17" x="-8.5" y="-8.89" dx="2" dy="0.9" layer="1"/>
-<smd name="18" x="-8.5" y="-10.16" dx="2" dy="0.9" layer="1"/>
-<smd name="19" x="-8.5" y="-11.43" dx="2" dy="0.9" layer="1"/>
-<smd name="20" x="8.5" y="-11.43" dx="2" dy="0.9" layer="1"/>
-<smd name="21" x="8.5" y="-10.16" dx="2" dy="0.9" layer="1"/>
-<smd name="22" x="8.5" y="-8.89" dx="2" dy="0.9" layer="1"/>
-<smd name="23" x="8.5" y="-7.62" dx="2" dy="0.9" layer="1"/>
-<smd name="24" x="8.5" y="-6.35" dx="2" dy="0.9" layer="1"/>
-<smd name="25" x="8.5" y="-5.08" dx="2" dy="0.9" layer="1"/>
-<smd name="26" x="8.5" y="-3.81" dx="2" dy="0.9" layer="1"/>
-<smd name="27" x="8.5" y="-2.54" dx="2" dy="0.9" layer="1"/>
-<smd name="28" x="8.5" y="-1.27" dx="2" dy="0.9" layer="1"/>
-<smd name="29" x="8.5" y="0" dx="2" dy="0.9" layer="1"/>
-<smd name="30" x="8.5" y="1.27" dx="2" dy="0.9" layer="1"/>
-<smd name="31" x="8.5" y="2.54" dx="2" dy="0.9" layer="1"/>
-<smd name="32" x="8.5" y="3.81" dx="2" dy="0.9" layer="1"/>
-<smd name="33" x="8.5" y="5.08" dx="2" dy="0.9" layer="1"/>
-<smd name="34" x="8.5" y="6.35" dx="2" dy="0.9" layer="1"/>
-<smd name="35" x="8.5" y="7.62" dx="2" dy="0.9" layer="1"/>
-<smd name="36" x="8.5" y="8.89" dx="2" dy="0.9" layer="1"/>
-<smd name="37" x="8.5" y="10.16" dx="2" dy="0.9" layer="1"/>
-<smd name="38" x="8.5" y="11.43" dx="2" dy="0.9" layer="1"/>
-<smd name="P$39" x="-1" y="3.93" dx="5" dy="5" layer="1"/>
+<smd name="1" x="-8.6" y="11.43" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="2" x="-8.6" y="10.16" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="3" x="-8.6" y="8.89" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="4" x="-8.6" y="7.62" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="5" x="-8.6" y="6.35" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="6" x="-8.6" y="5.08" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="7" x="-8.6" y="3.81" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="8" x="-8.6" y="2.54" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="9" x="-8.6" y="1.27" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="10" x="-8.6" y="0" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="11" x="-8.6" y="-1.27" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="12" x="-8.6" y="-2.54" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="13" x="-8.6" y="-3.81" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="14" x="-8.6" y="-5.08" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="15" x="-8.6" y="-6.35" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="16" x="-8.6" y="-7.62" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="17" x="-8.6" y="-8.89" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="18" x="-8.6" y="-10.16" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="19" x="-8.6" y="-11.43" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="20" x="8.6" y="-11.43" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="21" x="8.6" y="-10.16" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="22" x="8.6" y="-8.89" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="23" x="8.6" y="-7.62" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="24" x="8.6" y="-6.35" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="25" x="8.6" y="-5.08" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="26" x="8.6" y="-3.81" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="27" x="8.6" y="-2.54" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="28" x="8.6" y="-1.27" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="29" x="8.6" y="0" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="30" x="8.6" y="1.27" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="31" x="8.6" y="2.54" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="32" x="8.6" y="3.81" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="33" x="8.6" y="5.08" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="34" x="8.6" y="6.35" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="35" x="8.6" y="7.62" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="36" x="8.6" y="8.89" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="37" x="8.6" y="10.16" dx="1.8" dy="0.9" layer="1" roundness="25"/>
+<smd name="38" x="8.6" y="11.43" dx="1.8" dy="0.9" layer="1" roundness="25"/>
 <wire x1="-8.89" y1="-12.7" x2="8.89" y2="-12.7" width="0.127" layer="21"/>
 <wire x1="-9" y1="12.5" x2="-9" y2="19" width="0.127" layer="21"/>
 <wire x1="-9" y1="19" x2="9" y2="19" width="0.127" layer="21"/>
 <wire x1="9" y1="19" x2="9" y2="12.5" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-0.762" y2="0" width="0.127" layer="21"/>
 <wire x1="-0.762" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.762" width="0.127" layer="21"/>
 <wire x1="0" y1="0.762" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0.762" y2="0" width="0.127" layer="21"/>
 <wire x1="0.762" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="-0.762" width="0.127" layer="21"/>
+<polygon width="0.127" layer="1">
+<vertex x="-3" y="1.5"/>
+<vertex x="-1" y="3.5"/>
+<vertex x="1" y="1.5"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-3" y="6"/>
+<vertex x="-1" y="4"/>
+<vertex x="1" y="6"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-3" y="2"/>
+<vertex x="-3" y="5.5"/>
+<vertex x="-1.5" y="4"/>
+<vertex x="-1.5" y="3.5"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.5" y="3.5"/>
+<vertex x="-0.5" y="4"/>
+<vertex x="1" y="5.5"/>
+<vertex x="1" y="2"/>
+</polygon>
+<smd name="BG1" x="-2.5" y="4" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="BG3" x="0.5" y="4" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="BG2" x="-1" y="5" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="BG4" x="-1" y="2.5" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<polygon width="0.127" layer="31">
+<vertex x="-3" y="2"/>
+<vertex x="-1.5" y="3.5"/>
+<vertex x="-3" y="3.5"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-3" y="4"/>
+<vertex x="-1.5" y="4"/>
+<vertex x="-3" y="5.5"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-3" y="6"/>
+<vertex x="-1.5" y="4.5"/>
+<vertex x="-1.5" y="6"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.5" y="4.5"/>
+<vertex x="-0.5" y="6"/>
+<vertex x="1" y="6"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.5" y="3.5"/>
+<vertex x="1" y="2"/>
+<vertex x="1" y="3.5"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.5" y="4"/>
+<vertex x="1" y="5.5"/>
+<vertex x="1" y="4"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.5" y="3"/>
+<vertex x="-3" y="1.5"/>
+<vertex x="-1.5" y="1.5"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.5" y="3"/>
+<vertex x="-0.5" y="1.5"/>
+<vertex x="1" y="1.5"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-3" y="6"/>
+<vertex x="1" y="6"/>
+<vertex x="1" y="1.5"/>
+<vertex x="-3" y="1.5"/>
+</polygon>
 </package>
 <package name="QFN50P500X500X100-28" urn="urn:adsk.eagle:footprint:2665052/2" library_version="37">
 <description>28-QFN, 0.5 mm pitch, 5 X 5 X 1 mm body
@@ -701,7 +769,7 @@
 <packageinstance name="SOT95P242X120-3"/>
 </packageinstances>
 </package3d>
-<package3d name="ESP32_WROVER_I_PKG" urn="urn:adsk.eagle:package:4432905/7" type="model" library_version="43">
+<package3d name="ESP32_WROVER_I_PKG" urn="urn:adsk.eagle:package:4432905/7" type="model" library_version="46" library_locally_modified="yes">
 <description>ESP32-WROVER-I</description>
 <packageinstances>
 <packageinstance name="ESP32_WROVER_I_PKG"/>
@@ -1321,7 +1389,7 @@ PN: MAX485CSA+-ND</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP_32_WROVER_I_PKG" urn="urn:adsk.eagle:component:4432906/8" prefix="U" library_version="43">
+<deviceset name="ESP_32_WROVER_I_PKG" urn="urn:adsk.eagle:component:4432906/8" locally_modified="yes" prefix="U" library_version="46" library_locally_modified="yes">
 <description>ESP32-WROVER-I</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_I_SYM" x="12.7" y="-12.7"/>
@@ -1329,7 +1397,7 @@ PN: MAX485CSA+-ND</description>
 <devices>
 <device name="" package="ESP32_WROVER_I_PKG">
 <connects>
-<connect gate="G$1" pin="BGND" pad="P$39"/>
+<connect gate="G$1" pin="BGND" pad="BG1 BG2 BG3 BG4"/>
 <connect gate="G$1" pin="CLK" pad="20"/>
 <connect gate="G$1" pin="CMD" pad="19"/>
 <connect gate="G$1" pin="EN" pad="3"/>
