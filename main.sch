@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -733,7 +733,7 @@
 <text x="0" y="2.6386" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1986" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:footprint:7249963/11" library_version="59">
+<package name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:footprint:7249963/12" library_version="60">
 <description>16-QFN, 0.50 mm pitch, 3.00 X 3.00 X 1.00 mm body, 1.68 X 1.68 mm thermal pad
 &lt;p&gt;16-pin QFN package with 0.50 mm pitch with body size 3.00 X 3.00 X 1.00 mm and thermal pad size 1.68 X 1.68 mm&lt;/p&gt;</description>
 <circle x="-2.054" y="1.386" radius="0.25" width="0" layer="21"/>
@@ -749,20 +749,20 @@
 <wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.12" layer="51"/>
 <wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="51"/>
 <wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.12" layer="51"/>
-<smd name="1" x="-1.5" y="0.75" dx="0.8" dy="0.3" layer="1" roundness="100"/>
+<smd name="1" x="-1.5" y="0.75" dx="0.8" dy="0.34" layer="1" roundness="100"/>
 <smd name="2" x="-1.5" y="0" dx="0.8" dy="0.8" layer="1" roundness="34"/>
-<smd name="4" x="-1.5" y="-0.75" dx="0.8" dy="0.3" layer="1" roundness="100"/>
-<smd name="5" x="-0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="-0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="7" x="0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="8" x="0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="9" x="1.5" y="-0.75" dx="0.8" dy="0.3" layer="1" roundness="100"/>
+<smd name="4" x="-1.5" y="-0.75" dx="0.8" dy="0.34" layer="1" roundness="100"/>
+<smd name="5" x="-0.75" y="-1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-0.25" y="-1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="0.25" y="-1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="0.75" y="-1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="1.5" y="-0.75" dx="0.8" dy="0.34" layer="1" roundness="100"/>
 <smd name="10" x="1.5" y="0" dx="0.8" dy="0.8" layer="1" roundness="34"/>
-<smd name="12" x="1.5" y="0.75" dx="0.8" dy="0.3" layer="1" roundness="100"/>
-<smd name="13" x="0.75" y="1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="14" x="0.25" y="1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="15" x="-0.25" y="1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="16" x="-0.75" y="1.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="1.5" y="0.75" dx="0.8" dy="0.34" layer="1" roundness="100"/>
+<smd name="13" x="0.75" y="1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="0.25" y="1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="-0.25" y="1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="-0.75" y="1.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90"/>
 <smd name="GP1" x="-0.5" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GP2" x="0" y="0.5" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GP3" x="0.5" y="0" dx="0.3" dy="0.3" layer="1" stop="no" thermals="no" cream="no"/>
@@ -912,7 +912,7 @@
 <packageinstance name="SOT95P280X125-6"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:package:7249956/11" type="model" library_version="59">
+<package3d name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:package:7249956/12" type="model" library_version="60">
 <description>16-QFN, 0.50 mm pitch, 3.00 X 3.00 X 1.00 mm body, 1.68 X 1.68 mm thermal pad
 &lt;p&gt;16-pin QFN package with 0.50 mm pitch with body size 3.00 X 3.00 X 1.00 mm and thermal pad size 1.68 X 1.68 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1807,7 +1807,7 @@ PN: 336-1160-5-ND</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ24072TRGTR_DEV" urn="urn:adsk.eagle:component:8170707/11" prefix="U" library_version="59">
+<deviceset name="BQ24072TRGTR_DEV" urn="urn:adsk.eagle:component:8170707/12" prefix="U" library_version="60">
 <description>IC LI-ION CHARGE MGMT 16QFN
 
 296-27328-1-ND</description>
@@ -1833,7 +1833,7 @@ PN: 336-1160-5-ND</description>
 <connect gate="G$1" pin="VSS" pad="8 GP1 GP2 GP3 GP4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7249956/11"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7249956/12"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1981,7 +1981,8 @@ PN: 336-1160-5-ND</description>
 <part name="NC38" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="NC" device=""/>
 <part name="NC39" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="NC" device=""/>
 <part name="NC40" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="NC" device=""/>
-<part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BQ24072TRGTR_DEV" device="BQ24072TRGTR" package3d_urn="urn:adsk.eagle:package:7249956/11"/>
+<part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BQ24072TRGTR_DEV" device="BQ24072TRGTR" package3d_urn="urn:adsk.eagle:package:7249956/12"/>
+<part name="GND21" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11509,6 +11510,12 @@ PN: 336-1160-5-ND</description>
 <text x="73.66" y="-193.04" size="1.778" layer="94">AP9214LA-AH-HSB-7</text>
 <text x="35.56" y="-152.4" size="1.778" layer="97" rot="R180">Reverse Polarity Protectiton</text>
 <text x="15.24" y="-167.64" size="1.778" layer="94">Q4</text>
+<wire x1="12.7" y1="-147.32" x2="45.72" y2="-195.58" width="1.016" layer="97"/>
+<wire x1="10.16" y1="-195.58" x2="40.64" y2="-144.78" width="1.016" layer="97"/>
+<wire x1="68.58" y1="-195.58" x2="101.6" y2="-152.4" width="1.016" layer="97"/>
+<wire x1="71.12" y1="-152.4" x2="104.14" y2="-195.58" width="1.016" layer="97"/>
+<text x="5.08" y="-200.66" size="1.778" layer="97">Redacted - to improve manufacturability. Firmware takes care of the problems these chips seek to solve.
+ The only problem introduced is that the battery CANNOT be installed backwards now.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="48.26" y="-38.1" smashed="yes">
@@ -11812,6 +11819,7 @@ PN: 336-1160-5-ND</description>
 <attribute name="NAME" x="76.2" y="-104.14" size="1.778" layer="94"/>
 <attribute name="PN" x="104.14" y="-132.08" size="1.27" layer="94"/>
 </instance>
+<instance part="GND21" gate="G$1" x="50.8" y="-180.34" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -12067,6 +12075,11 @@ PN: 336-1160-5-ND</description>
 <pinref part="GND14" gate="G$1" pin="P$1"/>
 <wire x1="177.8" y1="-256.54" x2="167.64" y2="-256.54" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-256.54" x2="167.64" y2="-261.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="P$2"/>
+<wire x1="50.8" y1="-172.72" x2="50.8" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="RXD0" class="0">
@@ -12712,17 +12725,13 @@ PN: 336-1160-5-ND</description>
 <pinref part="Q4" gate="G$1" pin="D1"/>
 <wire x1="27.94" y1="-160.02" x2="33.02" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="D4"/>
-<pinref part="B1" gate="G$1" pin="P$2"/>
 <wire x1="33.02" y1="-185.42" x2="38.1" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-185.42" x2="50.8" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-185.42" x2="50.8" y2="-172.72" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="D3"/>
 <wire x1="27.94" y1="-185.42" x2="33.02" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="33.02" y="-185.42"/>
 <wire x1="33.02" y1="-160.02" x2="38.1" y2="-160.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-160.02" x2="38.1" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="33.02" y="-160.02"/>
-<junction x="38.1" y="-185.42"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12905,6 +12914,10 @@ PN: 336-1160-5-ND</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

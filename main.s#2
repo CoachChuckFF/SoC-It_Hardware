@@ -733,7 +733,7 @@
 <text x="0" y="2.6386" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1986" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:footprint:7249963/9" library_version="56">
+<package name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:footprint:7249963/10" library_version="57">
 <description>16-QFN, 0.50 mm pitch, 3.00 X 3.00 X 1.00 mm body, 1.68 X 1.68 mm thermal pad
 &lt;p&gt;16-pin QFN package with 0.50 mm pitch with body size 3.00 X 3.00 X 1.00 mm and thermal pad size 1.68 X 1.68 mm&lt;/p&gt;</description>
 <circle x="-2.054" y="1.386" radius="0.25" width="0" layer="21"/>
@@ -750,14 +750,14 @@
 <wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="51"/>
 <wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.12" layer="51"/>
 <smd name="1" x="-1.6" y="0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
-<smd name="2" x="-1.6" y="0" dx="0.69" dy="0.8" layer="1" roundness="100"/>
+<smd name="2" x="-1.6" y="0" dx="0.69" dy="0.8" layer="1" roundness="34"/>
 <smd name="4" x="-1.6" y="-0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
 <smd name="5" x="-0.75" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
 <smd name="6" x="-0.25" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
 <smd name="7" x="0.25" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
 <smd name="8" x="0.75" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
 <smd name="9" x="1.6" y="-0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
-<smd name="10" x="1.6" y="0" dx="0.69" dy="0.8" layer="1" roundness="100"/>
+<smd name="10" x="1.6" y="0" dx="0.69" dy="0.8" layer="1" roundness="34"/>
 <smd name="12" x="1.6" y="0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
 <smd name="13" x="0.75" y="1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
 <smd name="14" x="0.25" y="1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
@@ -917,7 +917,7 @@
 <packageinstance name="SOT95P280X125-6"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:package:7249956/9" type="model" library_version="56">
+<package3d name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:package:7249956/10" type="model" library_version="57">
 <description>16-QFN, 0.50 mm pitch, 3.00 X 3.00 X 1.00 mm body, 1.68 X 1.68 mm thermal pad
 &lt;p&gt;16-pin QFN package with 0.50 mm pitch with body size 3.00 X 3.00 X 1.00 mm and thermal pad size 1.68 X 1.68 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1812,7 +1812,7 @@ PN: 336-1160-5-ND</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ24072TRGTR_DEV" urn="urn:adsk.eagle:component:8170707/9" prefix="U" library_version="56">
+<deviceset name="BQ24072TRGTR_DEV" urn="urn:adsk.eagle:component:8170707/10" prefix="U" library_version="57">
 <description>IC LI-ION CHARGE MGMT 16QFN
 
 296-27328-1-ND</description>
@@ -1838,7 +1838,7 @@ PN: 336-1160-5-ND</description>
 <connect gate="G$1" pin="VSS" pad="8 GP1 GP2 GP3 GP4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7249956/9"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7249956/10"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1986,7 +1986,7 @@ PN: 336-1160-5-ND</description>
 <part name="NC38" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="NC" device=""/>
 <part name="NC39" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="NC" device=""/>
 <part name="NC40" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="NC" device=""/>
-<part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BQ24072TRGTR_DEV" device="BQ24072TRGTR" package3d_urn="urn:adsk.eagle:package:7249956/9"/>
+<part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BQ24072TRGTR_DEV" device="BQ24072TRGTR" package3d_urn="urn:adsk.eagle:package:7249956/10"/>
 </parts>
 <sheets>
 <sheet>

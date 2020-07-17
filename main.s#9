@@ -2032,10 +2032,10 @@ PN: 336-1160-5-ND</description>
 <wire x1="93.98" y1="-302.26" x2="226.06" y2="-302.26" width="0.1524" layer="97"/>
 <wire x1="226.06" y1="-302.26" x2="261.62" y2="-302.26" width="0.1524" layer="97"/>
 <wire x1="93.98" y1="-314.96" x2="223.52" y2="-314.96" width="0.1524" layer="97"/>
-<text x="96.52" y="-297.18" size="5.08" layer="97">Title: Blizzard Board IPO</text>
+<text x="96.52" y="-297.18" size="5.08" layer="97">Title: SoC-It</text>
 <text x="96.52" y="-309.88" size="5.08" layer="97">Designed By: Christian Krueger</text>
 <text x="96.52" y="-287.02" size="5.08" layer="97">Blizzard Lighting LLC</text>
-<text x="96.52" y="-322.58" size="5.08" layer="97">Date: 3.8.19</text>
+<text x="96.52" y="-322.58" size="5.08" layer="97">Date: 2.19.20</text>
 <text x="228.6" y="-322.58" size="5.08" layer="97">Sheet: 1/1</text>
 <text x="231.14" y="-309.88" size="5.08" layer="97">VER: 1.4</text>
 <wire x1="223.52" y1="-314.96" x2="226.06" y2="-314.96" width="0.1524" layer="97"/>

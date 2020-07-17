@@ -12528,6 +12528,24 @@ PN: 336-1160-5-ND</description>
 <pinref part="VCC8" gate="G$1" pin="P$1"/>
 <pinref part="U2" gate="G$1" pin="EN2"/>
 </segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="P$2"/>
+<pinref part="R11" gate="G$1" pin="P$2"/>
+<wire x1="116.84" y1="-129.54" x2="116.84" y2="-127" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-127" x2="116.84" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-119.38" x2="116.84" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="116.84" y="-119.38"/>
+<wire x1="116.84" y1="-127" x2="124.46" y2="-127" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-127" x2="124.46" y2="-129.54" width="0.1524" layer="91"/>
+<junction x="116.84" y="-127"/>
+<wire x1="116.84" y1="-119.38" x2="129.54" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="116.84" y="-119.38"/>
+<wire x1="129.54" y1="-119.38" x2="129.54" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="VCC7" gate="G$1" pin="P$1"/>
+<pinref part="C16" gate="G$1" pin="P$2"/>
+<junction x="129.54" y="-119.38"/>
+<pinref part="U2" gate="G$1" pin="OUT1"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -12830,26 +12848,6 @@ PN: 336-1160-5-ND</description>
 <segment>
 <pinref part="U5" gate="G$1" pin="NC10"/>
 <pinref part="NC40" gate="G$1" pin="P$1"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<pinref part="R12" gate="G$1" pin="P$2"/>
-<pinref part="R11" gate="G$1" pin="P$2"/>
-<wire x1="116.84" y1="-129.54" x2="116.84" y2="-127" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="-127" x2="116.84" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="-119.38" x2="116.84" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="116.84" y="-119.38"/>
-<wire x1="116.84" y1="-127" x2="124.46" y2="-127" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-127" x2="124.46" y2="-129.54" width="0.1524" layer="91"/>
-<junction x="116.84" y="-127"/>
-<wire x1="116.84" y1="-119.38" x2="129.54" y2="-119.38" width="0.1524" layer="91"/>
-<junction x="116.84" y="-119.38"/>
-<wire x1="129.54" y1="-119.38" x2="129.54" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="VCC7" gate="G$1" pin="P$1"/>
-<pinref part="C16" gate="G$1" pin="P$2"/>
-<junction x="129.54" y="-119.38"/>
-<pinref part="U2" gate="G$1" pin="OUT1"/>
 </segment>
 </net>
 </nets>

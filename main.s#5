@@ -2047,7 +2047,7 @@ PN: 336-1160-5-ND</description>
 <text x="96.52" y="-287.02" size="5.08" layer="97">Blizzard Lighting LLC</text>
 <text x="96.52" y="-322.58" size="5.08" layer="97">Date: 2.19.20</text>
 <text x="228.6" y="-322.58" size="5.08" layer="97">Sheet: 1/1</text>
-<text x="231.14" y="-309.88" size="5.08" layer="97">VER: 1.4</text>
+<text x="231.14" y="-309.88" size="5.08" layer="97">VER: 1.5</text>
 <wire x1="223.52" y1="-314.96" x2="226.06" y2="-314.96" width="0.1524" layer="97"/>
 <wire x1="226.06" y1="-314.96" x2="261.62" y2="-314.96" width="0.1524" layer="97"/>
 <wire x1="223.52" y1="-325.12" x2="223.52" y2="-314.96" width="0.1524" layer="97"/>

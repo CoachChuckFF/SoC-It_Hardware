@@ -331,7 +331,7 @@
 <vertex x="0.1" y="5.4"/>
 </polygon>
 </package>
-<package name="QFN50P500X500X100-28" urn="urn:adsk.eagle:footprint:2665052/6" library_version="53">
+<package name="QFN50P500X500X100-28" urn="urn:adsk.eagle:footprint:2665052/7" library_version="55">
 <description>28-QFN, 0.5 mm pitch, 5 X 5 X 1 mm body
 &lt;p&gt;28-pin QFN package with 0.5 mm pitch with body size 5 X 5 X 1 mm&lt;/p&gt;</description>
 <circle x="-2.829" y="1.961" radius="0.075" width="0" layer="21"/>
@@ -353,13 +353,13 @@
 <wire x1="1.6" y1="-1.6" x2="-1.6" y2="-1.6" width="0.127" layer="51"/>
 <smd name="1" x="-2.5" y="1.5" dx="0.8" dy="0.3" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <smd name="2" x="-2.5" y="1" dx="0.8" dy="0.3" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
-<smd name="3" x="-2.5" y="0.5" dx="0.8" dy="0.3" layer="1" roundness="100" thermals="no"/>
-<smd name="4" x="-2.5" y="0" dx="0.8" dy="0.3" layer="1" roundness="100" thermals="no"/>
-<smd name="5" x="-2.5" y="-0.5" dx="0.8" dy="0.3" layer="1" roundness="100" thermals="no"/>
-<smd name="6" x="-2.5" y="-1" dx="0.8" dy="0.3" layer="1" roundness="100" thermals="no"/>
-<smd name="7" x="-2.5" y="-1.5" dx="0.8" dy="0.3" layer="1" roundness="100" thermals="no"/>
-<smd name="8" x="-1.5" y="-2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" thermals="no"/>
-<smd name="9" x="-1" y="-2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" thermals="no"/>
+<smd name="3" x="-2.5" y="0.5" dx="0.8" dy="0.34" layer="1" roundness="100" thermals="no"/>
+<smd name="4" x="-2.5" y="0" dx="0.8" dy="0.34" layer="1" roundness="100" thermals="no"/>
+<smd name="5" x="-2.5" y="-0.5" dx="0.8" dy="0.34" layer="1" roundness="100" thermals="no"/>
+<smd name="6" x="-2.5" y="-1" dx="0.8" dy="0.34" layer="1" roundness="100" thermals="no"/>
+<smd name="7" x="-2.5" y="-1.5" dx="0.8" dy="0.34" layer="1" roundness="100" thermals="no"/>
+<smd name="8" x="-1.5" y="-2.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90" thermals="no"/>
+<smd name="9" x="-1" y="-2.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90" thermals="no"/>
 <smd name="10" x="-0.5" y="-2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="11" x="0" y="-2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="12" x="0.5" y="-2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -374,11 +374,11 @@
 <smd name="21" x="2.5" y="1.5" dx="0.8" dy="0.3" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <smd name="22" x="1.5" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="23" x="1" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="24" x="0.5" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" thermals="no"/>
-<smd name="25" x="0" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" thermals="no"/>
-<smd name="26" x="-0.5" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="27" x="-1" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" thermals="no"/>
-<smd name="28" x="-1.5" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" thermals="no"/>
+<smd name="24" x="0.5" y="2.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90" thermals="no"/>
+<smd name="25" x="0" y="2.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90" thermals="no"/>
+<smd name="26" x="-0.5" y="2.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90" thermals="no"/>
+<smd name="27" x="-1" y="2.5" dx="0.8" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="28" x="-1.5" y="2.5" dx="0.8" dy="0.34" layer="1" roundness="100" rot="R90" thermals="no"/>
 <smd name="GP1" x="-0.3" y="0" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GP2" x="0" y="0.3" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GP3" x="0.3" y="0" dx="0.1" dy="0.1" layer="1" stop="no" thermals="no" cream="no"/>
@@ -493,7 +493,7 @@
 <circle x="0" y="0" radius="1.3038375" width="0.127" layer="21"/>
 <text x="-2" y="3" size="0.8128" layer="25">&gt;NAME</text>
 </package>
-<package name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:footprint:7249963/7" library_version="52">
+<package name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:footprint:7249963/8" library_version="55">
 <description>16-QFN, 0.50 mm pitch, 3.00 X 3.00 X 1.00 mm body, 1.68 X 1.68 mm thermal pad
 &lt;p&gt;16-pin QFN package with 0.50 mm pitch with body size 3.00 X 3.00 X 1.00 mm and thermal pad size 1.68 X 1.68 mm&lt;/p&gt;</description>
 <circle x="-2.054" y="1.386" radius="0.25" width="0" layer="21"/>
@@ -509,22 +509,22 @@
 <wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.12" layer="51"/>
 <wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="51"/>
 <wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.12" layer="51"/>
-<smd name="1" x="-1.6" y="0.75" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="2" x="-1.6" y="0.25" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="3" x="-1.6" y="-0.25" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="4" x="-1.6" y="-0.75" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="5" x="-0.75" y="-1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="-0.25" y="-1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="7" x="0.25" y="-1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="8" x="0.75" y="-1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="9" x="1.6" y="-0.75" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="10" x="1.6" y="-0.25" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="11" x="1.6" y="0.25" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="12" x="1.6" y="0.75" dx="0.69" dy="0.3" layer="1" roundness="100"/>
-<smd name="13" x="0.75" y="1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="14" x="0.25" y="1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="15" x="-0.25" y="1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="16" x="-0.75" y="1.6" dx="0.69" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-1.6" y="0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="2" x="-1.6" y="0.25" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="3" x="-1.6" y="-0.25" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="4" x="-1.6" y="-0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="5" x="-0.75" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-0.25" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="0.25" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="0.75" y="-1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="1.6" y="-0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="10" x="1.6" y="-0.25" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="11" x="1.6" y="0.25" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="12" x="1.6" y="0.75" dx="0.69" dy="0.34" layer="1" roundness="100"/>
+<smd name="13" x="0.75" y="1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="0.25" y="1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="-0.25" y="1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="-0.75" y="1.6" dx="0.69" dy="0.34" layer="1" roundness="100" rot="R90"/>
 <smd name="GP1" x="-0.7" y="0" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GP2" x="0" y="0.7" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GP3" x="0.7" y="0" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
@@ -860,7 +860,7 @@
 <packageinstance name="ESP32_WROVER_I_PKG"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P500X500X100-28" urn="urn:adsk.eagle:package:2665053/7" type="model" library_version="53">
+<package3d name="QFN50P500X500X100-28" urn="urn:adsk.eagle:package:2665053/8" type="model" library_version="55">
 <description>28-QFN, 0.5 mm pitch, 5 X 5 X 1 mm body
 &lt;p&gt;28-pin QFN package with 0.5 mm pitch with body size 5 X 5 X 1 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -879,7 +879,7 @@
 <packageinstance name="5050_PKG"/>
 </packageinstances>
 </package3d>
-<package3d name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:package:7249956/7" type="model" library_version="52">
+<package3d name="QFN50P300X300X100-17T168" urn="urn:adsk.eagle:package:7249956/8" type="model" library_version="55">
 <description>16-QFN, 0.50 mm pitch, 3.00 X 3.00 X 1.00 mm body, 1.68 X 1.68 mm thermal pad
 &lt;p&gt;16-pin QFN package with 0.50 mm pitch with body size 3.00 X 3.00 X 1.00 mm and thermal pad size 1.68 X 1.68 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1533,7 +1533,7 @@ PN: MAX485CSA+-ND</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB_TO_UART_DEV" urn="urn:adsk.eagle:component:2665062/11" prefix="U" library_version="53">
+<deviceset name="USB_TO_UART_DEV" urn="urn:adsk.eagle:component:2665062/12" prefix="U" library_version="55">
 <description>SINGLE-CHIP USB-TO-UART BRIDGE
 
 PN: 336-1160-5-ND</description>
@@ -1574,7 +1574,7 @@ PN: 336-1160-5-ND</description>
 <connect gate="G$1" pin="VDD" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2665053/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2665053/8"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1630,7 +1630,7 @@ PN: 336-1160-5-ND</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BQ24072TRGTR_DEV" urn="urn:adsk.eagle:component:8170707/7" prefix="U" library_version="52">
+<deviceset name="BQ24072TRGTR_DEV" urn="urn:adsk.eagle:component:8170707/8" prefix="U" library_version="55">
 <description>IC LI-ION CHARGE MGMT 16QFN
 
 296-27328-1-ND</description>
@@ -1658,7 +1658,7 @@ PN: 336-1160-5-ND</description>
 <connect gate="G$1" pin="VSS" pad="8 GP1 GP2 GP3 GP4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7249956/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7249956/8"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1876,7 +1876,7 @@ PN: 336-1160-5-ND</description>
 <part name="R13" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_RES_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2685918/4" value="9K"/>
 <part name="C9" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_CAP_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2669409/4" value="0.1uF"/>
 <part name="U4" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="ESP_32_WROVER_I_PKG" device="" package3d_urn="urn:adsk.eagle:package:4432905/9"/>
-<part name="U5" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="USB_TO_UART_DEV" device="" package3d_urn="urn:adsk.eagle:package:2665053/7"/>
+<part name="U5" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="USB_TO_UART_DEV" device="" package3d_urn="urn:adsk.eagle:package:2665053/8"/>
 <part name="C11" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_CAP_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2669409/4" value="0.1uF"/>
 <part name="R16" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_RES_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2685918/4" value="9K"/>
 <part name="C12" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_CAP_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2669409/4" value="0.1uF"/>
@@ -1943,7 +1943,7 @@ PN: 336-1160-5-ND</description>
 <part name="VCC15" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="VCC" device="" value="VBAT"/>
 <part name="GND19" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="GND" device=""/>
 <part name="C14" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="0603_CAP_DEV" device="3D" package3d_urn="urn:adsk.eagle:package:2669409/4" value="0.1uF"/>
-<part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BQ24072TRGTR_DEV" device="BQ24072TRGTR" package3d_urn="urn:adsk.eagle:package:7249956/7"/>
+<part name="U2" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="BQ24072TRGTR_DEV" device="BQ24072TRGTR" package3d_urn="urn:adsk.eagle:package:7249956/8"/>
 <part name="GND8" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="GND" device=""/>
 <part name="GND9" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="GND" device=""/>
 <part name="VCC8" library="Blizzard_Library" library_urn="urn:adsk.eagle:library:2665040" deviceset="VCC" device="" value="4.2V"/>
